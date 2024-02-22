@@ -787,7 +787,7 @@ print_success "ePro WebSocket Proxy"
 }
 function noobzvpn(){
 clear
-wget "${REPO}/noobzvpns.zip"
+wget "${REPO}files/noobzvpns.zip"
 unzip noobzvpns.zip
 bash install.sh
 rm noobzvpns.zip

@@ -791,6 +791,7 @@ wget "${REPO}files/noobzvpns.zip"
 unzip noobzvpns.zip
 bash install.sh
 rm noobzvpns.zip
+systemctl start noobzvpns.service
 systemctl restart noobzvpns
 print_success "NOOBZVPN"
 }
